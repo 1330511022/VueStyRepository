@@ -1,7 +1,7 @@
 <template>
   <div>message的值:{{ message }}</div>
   <div>obj.message的值:{{ obj.message }}</div>
-  <div>obj.message的值:{{ obj.message }}</div>
+
 </template>
 
 <script setup>
