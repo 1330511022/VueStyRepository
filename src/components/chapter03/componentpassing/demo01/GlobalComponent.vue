@@ -2,11 +2,10 @@
   <div class="global-container"><h5>全局组件</h5></div>
 </template>
 
-<script>
-export default {};
+<script setup>
 </script>
 
-<style>
+<style scoped>
 .global-container {
   border: 1px solid black;
   height: 50px;

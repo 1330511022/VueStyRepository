@@ -7,17 +7,18 @@
 </template>
 
 <script setup>
-import { useRouter } from "vue-router";
+import {useRouter} from "vue-router";
+
 const router = useRouter();
 const gotoMovie = (movieId) => {
   router.push({
     name: "MovieDetails",
-    params: { id: movieId },
+    params: {id: movieId},
   });
 };
 </script>
 
-  <style scoped>
+<style scoped>
 .home-container {
   min-height: 150px;
   background-color: #f2f2f2;

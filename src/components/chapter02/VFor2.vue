@@ -5,13 +5,13 @@
 </template>
 
 <script setup>
-import { reactive } from "vue";
+import {reactive} from "vue";
 
 const list = reactive([
-  { id: 1, message: "梅" },
-  { id: 2, message: "兰" },
-  { id: 3, message: "竹" },
-  { id: 4, message: "菊" },
+  {id: 1, message: "梅"},
+  {id: 2, message: "兰"},
+  {id: 3, message: "竹"},
+  {id: 4, message: "菊"},
 ]);
 </script>
 
